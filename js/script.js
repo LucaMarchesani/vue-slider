@@ -47,6 +47,9 @@ createApp({
                 this.visibleImg = 0;
             }
         },
+        goToCarouselImg(thumbIndex){
+            this.visibleImg = thumbIndex;
+        }
     }
 }).mount('#app');
 
